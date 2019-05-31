@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
       error = null;
     } catch (e) {
       if (e.code == 'PERMISSION_DENIED') {
-        error = 'Permission denied';
+        error = 'Permission denied!!';
       } else if (e.code == 'PERMISSION_DENIED_NEVER_ASK') {
         error =
             'Permission denied - please ask the user to enable it from the app settings';

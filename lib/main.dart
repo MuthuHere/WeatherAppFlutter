@@ -5,7 +5,8 @@ import 'package:weather_app/home_page.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: MyApp(),
+      debugShowCheckedModeBanner : false,
+      home: MyApp(),
     routes: <String, WidgetBuilder>{
       '/home': (BuildContext context) => HomePage()
     },
